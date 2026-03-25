@@ -205,4 +205,15 @@ Falls nach 4 Wochen noch kein Käufer:
 
 ---
 
-*Erstellt am 25.03.2026 — Kampagnenstart sobald Fotos/Videos vorliegen*
+---
+
+## 9. Live-Links
+
+- **Landingpage**: https://angelo8306.github.io/finca-andratx/
+- **Idealista**: https://www.idealista.com/en/inmueble/109922689/
+- **Kontakt**: arquitecto@c-df.com | +34 670 06 87 74
+
+---
+
+*Erstellt am 25.03.2026 — Landingpage live mit 16 Fotos von Idealista*
+*Fotos von Idealista integriert. Kai sollte trotzdem eigene hochwertige Fotos/Videos liefern für Social Media Posts.*
