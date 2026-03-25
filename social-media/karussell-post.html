@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080">
+  <title>Karussell — Finca Andratx</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #1a1612; font-family: 'DM Sans', sans-serif; }
+
+    .slides { display: flex; gap: 40px; padding: 40px; overflow-x: auto; scroll-snap-type: x mandatory; }
+
+    .slide {
+      flex-shrink: 0;
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      scroll-snap-align: start;
+      border-radius: 4px;
+    }
+
+    /* SLIDE 1 — Cover */
+    .slide--cover {
+      background: linear-gradient(180deg, rgba(44,36,32,0.3) 0%, rgba(44,36,32,0.85) 100%), url('../images/01-facade.jpg') center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 80px;
+    }
+
+    .slide--cover .tag {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #C9A96E;
+      border: 1px solid #C9A96E;
+      padding: 8px 20px;
+      margin-bottom: 30px;
+      align-self: flex-start;
+    }
+
+    .slide--cover h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 72px;
+      font-weight: 300;
+      color: #FEFCF9;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .slide--cover h1 em { font-style: italic; font-weight: 400; color: #D4BC8A; }
+
+    .slide--cover .price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 42px;
+      color: #FEFCF9;
+      font-weight: 500;
+    }
+
+    .slide--cover .swipe {
+      position: absolute;
+      bottom: 40px;
+      right: 60px;
+      color: rgba(254,252,249,0.4);
+      font-size: 13px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .slide--cover .swipe::after {
+      content: '→';
+      font-size: 20px;
+    }
+
+    /* SLIDE — Foto mit Fact */
+    .slide--fact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .slide--fact .photo {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide--fact .bar {
+      background: #2C2420;
+      padding: 50px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .slide--fact .bar__number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 64px;
+      font-weight: 500;
+      color: #C9A96E;
+    }
+
+    .slide--fact .bar__label {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(254,252,249,0.6);
+      text-align: right;
+    }
+
+    /* SLIDE — Full Bleed */
+    .slide--fullbleed {
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      padding: 60px;
+    }
+
+    .slide--fullbleed .caption {
+      background: rgba(44,36,32,0.85);
+      backdrop-filter: blur(10px);
+      padding: 30px 40px;
+      max-width: 600px;
+    }
+
+    .slide--fullbleed .caption h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 32px;
+      color: #FEFCF9;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .slide--fullbleed .caption p {
+      font-size: 15px;
+      color: rgba(254,252,249,0.6);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    /* SLIDE — Text/Editorial */
+    .slide--editorial {
+      background: #2C2420;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+      text-align: center;
+    }
+
+    .slide--editorial .icon {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    .slide--editorial h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 52px;
+      font-weight: 300;
+      color: #FEFCF9;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    .slide--editorial h2 em { font-style: italic; color: #D4BC8A; }
+
+    .slide--editorial p {
+      font-size: 18px;
+      color: rgba(254,252,249,0.5);
+      line-height: 1.7;
+      font-weight: 300;
+      max-width: 700px;
+    }
+
+    .slide--editorial .line {
+      width: 60px;
+      height: 1px;
+      background: #C9A96E;
+      margin: 30px auto;
+    }
+
+    /* SLIDE — CTA */
+    .slide--cta {
+      background: linear-gradient(180deg, rgba(44,36,32,0.92), rgba(44,36,32,0.96)), url('../images/01-facade.jpg') center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 100px;
+    }
+
+    .slide--cta h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 56px;
+      font-weight: 300;
+      color: #FEFCF9;
+      margin-bottom: 20px;
+    }
+
+    .slide--cta h2 em { font-style: italic; color: #D4BC8A; }
+
+    .slide--cta p {
+      font-size: 18px;
+      color: rgba(254,252,249,0.5);
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .slide--cta .btn {
+      display: inline-block;
+      padding: 18px 50px;
+      background: #C4754B;
+      color: #FEFCF9;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .slide--cta .url {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #C9A96E;
+      letter-spacing: 0.1em;
+    }
+
+    /* Dots indicator */
+    .dots {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(254,252,249,0.25);
+    }
+
+    .dot.active { background: #C9A96E; }
+
+    /* Screenshot helper */
+    .hint {
+      color: rgba(254,252,249,0.3);
+      font-size: 13px;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<p class="hint">Scrolle nach rechts um alle Slides zu sehen. Jeden Slide einzeln screenshotten (1080x1080).</p>
+
+<div class="slides">
+
+  <!-- SLIDE 1: Cover -->
+  <div class="slide slide--cover">
+    <span class="tag">Privatverkauf — Mallorca</span>
+    <h1>Ein Stück<br><em>mallorquinische</em><br>Seele</h1>
+    <div class="price">1.800.000 €</div>
+    <div class="swipe">Swipe</div>
+  </div>
+
+  <!-- SLIDE 2: Wohnbereich -->
+  <div class="slide slide--fact">
+    <div class="photo" style="background-image: url('../images/05-interior3.jpg')"></div>
+    <div class="bar">
+      <div class="bar__number">6m</div>
+      <div class="bar__label">Deckenhöhe im<br>Wohnbereich</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Editorial -->
+  <div class="slide slide--editorial">
+    <span class="icon">🪨</span>
+    <h2>Naturstein trifft<br><em>modernen Komfort</em></h2>
+    <div class="line"></div>
+    <p>Fußbodenheizung, Klimaanlage und Kamin — eingebettet in jahrhundertealte Steinmauern. Das Beste aus zwei Welten.</p>
+  </div>
+
+  <!-- SLIDE 4: Küche -->
+  <div class="slide slide--fullbleed" style="background-image: url('../images/06-interior4.jpg')">
+    <div class="caption">
+      <h3>Mallorquinische Küche</h3>
+      <p>Traditionelle Fliesen, massives Holz, alles was man braucht.</p>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Schlafzimmer -->
+  <div class="slide slide--fact">
+    <div class="photo" style="background-image: url('../images/09-view1.jpg')"></div>
+    <div class="bar">
+      <div class="bar__number">3</div>
+      <div class="bar__label">Schlafzimmer<br>2 Badezimmer</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: CTA -->
+  <div class="slide slide--cta">
+    <h2>Ihre <em>Finca</em><br>wartet</h2>
+    <p>172 m² · 3 Schlafzimmer · 2 Bäder · Parkplatz<br>5 Minuten zu Fuß ins Dorf Andratx</p>
+    <span class="btn">Besichtigung anfragen</span>
+    <div class="url">Link in Bio</div>
+  </div>
+
+</div>
+
+</body>
+</html>
