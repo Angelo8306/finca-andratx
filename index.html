@@ -56,10 +56,10 @@
       inset: 0;
       background:
         linear-gradient(180deg,
-          rgba(44,36,32,0.45) 0%,
-          rgba(44,36,32,0.25) 25%,
-          rgba(44,36,32,0.5) 60%,
-          rgba(44,36,32,0.92) 100%),
+          rgba(44,36,32,0.55) 0%,
+          rgba(44,36,32,0.40) 25%,
+          rgba(44,36,32,0.60) 60%,
+          rgba(44,36,32,0.94) 100%),
         url('images/01-facade.jpg') center 30%/cover no-repeat;
       transform: scale(1.05);
       animation: heroZoom 20s ease-out forwards;
@@ -401,7 +401,7 @@
     .gallery {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 380px 300px 300px;
+      grid-template-rows: 380px 300px 300px 300px 300px 300px;
       gap: 6px;
     }
 
@@ -697,7 +697,7 @@
       .features { grid-template-columns: 1fr 1fr; }
       .gallery {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 300px 240px;
+        grid-template-rows: repeat(9, 240px);
       }
       .gallery__item:first-child {
         grid-row: auto;
@@ -825,41 +825,79 @@
       <h2 class="section__title">Bilder sagen mehr als <em>Worte</em></h2>
     </div>
     <div class="gallery" style="margin-top: 50px;">
+      <!-- Fassade & Außen -->
       <div class="gallery__item reveal" onclick="openLightbox(0)">
-        <img src="images/05-interior3.jpg" alt="Wohnbereich mit doppelter Deckenhöhe" loading="lazy">
+        <img src="images/04-wohnbereich.jpg" alt="Wohnbereich doppelte Deckenhöhe, Treppe, Holzbalken" loading="lazy">
         <span class="gallery__label">Wohnbereich</span>
       </div>
       <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(1)">
-        <img src="images/03-interior1.jpg" alt="Überdachte Terrasse mit Essbereich" loading="lazy">
+        <img src="images/03-terrasse.jpg" alt="Terrasse Naturstein, Esstisch, Bougainvillea" loading="lazy">
         <span class="gallery__label">Terrasse</span>
       </div>
       <div class="gallery__item reveal reveal-delay-2" onclick="openLightbox(2)">
-        <img src="images/06-interior4.jpg" alt="Mallorquinische Küche" loading="lazy">
+        <img src="images/05-kueche.jpg" alt="Mallorquinische Küche" loading="lazy">
         <span class="gallery__label">Küche</span>
       </div>
+      <!-- Schlafzimmer -->
       <div class="gallery__item reveal" onclick="openLightbox(3)">
-        <img src="images/09-view1.jpg" alt="Hauptschlafzimmer mit Holzbalken" loading="lazy">
-        <span class="gallery__label">Hauptschlafzimmer</span>
+        <img src="images/06-master-bedroom.jpg" alt="Master Bedroom modern, Holzbalken" loading="lazy">
+        <span class="gallery__label">Master Bedroom</span>
       </div>
       <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(4)">
-        <img src="images/08-interior6.jpg" alt="Schlafzimmer mit Balkonzugang" loading="lazy">
-        <span class="gallery__label">Schlafzimmer 2</span>
+        <img src="images/07-master-view.jpg" alt="Master mit Sunset-View" loading="lazy">
+        <span class="gallery__label">Master — Sunset View</span>
       </div>
       <div class="gallery__item reveal reveal-delay-2" onclick="openLightbox(5)">
-        <img src="images/13-detail1.jpg" alt="Modernes Badezimmer mit Walk-in Dusche" loading="lazy">
-        <span class="gallery__label">Badezimmer</span>
+        <img src="images/08-master-flur.jpg" alt="Master Flur zum Bad" loading="lazy">
+        <span class="gallery__label">Master — Flur zum Bad</span>
       </div>
+      <!-- Bäder -->
       <div class="gallery__item reveal" onclick="openLightbox(6)">
-        <img src="images/10-view2.jpg" alt="Schlafzimmer mit Sonnenuntergang" loading="lazy">
-        <span class="gallery__label">Schlafzimmer 3</span>
+        <img src="images/09-bad-haupt.jpg" alt="Hauptbad, beleuchteter Spiegel" loading="lazy">
+        <span class="gallery__label">Hauptbad</span>
       </div>
       <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(7)">
-        <img src="images/11-view3.jpg" alt="Schlafbereich mit Designelementen" loading="lazy">
-        <span class="gallery__label">Suite-Detail</span>
+        <img src="images/10-bad-waschtisch.jpg" alt="Bad Waschtisch" loading="lazy">
+        <span class="gallery__label">Bad — Waschtisch</span>
       </div>
       <div class="gallery__item reveal reveal-delay-2" onclick="openLightbox(8)">
-        <img src="images/02-exterior.jpg" alt="Garten mit Lavendel und Olivenbäumen" loading="lazy">
+        <img src="images/11-bad-dusche.jpg" alt="Bad Dusche Detail" loading="lazy">
+        <span class="gallery__label">Bad — Dusche</span>
+      </div>
+      <!-- Weitere Räume -->
+      <div class="gallery__item reveal" onclick="openLightbox(9)">
+        <img src="images/12-schlafzimmer2.jpg" alt="Schlafzimmer mit Balkon" loading="lazy">
+        <span class="gallery__label">Schlafzimmer 2</span>
+      </div>
+      <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(10)">
+        <img src="images/13-studio.jpg" alt="Studio/Einzelzimmer" loading="lazy">
+        <span class="gallery__label">Studio</span>
+      </div>
+      <div class="gallery__item reveal reveal-delay-2" onclick="openLightbox(11)">
+        <img src="images/15-gaeste-wc.jpg" alt="Gäste-WC Natursteinwand" loading="lazy">
+        <span class="gallery__label">Gäste-WC</span>
+      </div>
+      <!-- Details & Garten -->
+      <div class="gallery__item reveal" onclick="openLightbox(12)">
+        <img src="images/16-schrank.jpg" alt="Einbauschrank Detail" loading="lazy">
+        <span class="gallery__label">Einbauschrank</span>
+      </div>
+      <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(13)">
+        <img src="images/02-exterior.jpg" alt="Garten mit Lavendel-Weg" loading="lazy">
+        <span class="gallery__label">Garten — Lavendelweg</span>
+      </div>
+      <div class="gallery__item reveal reveal-delay-2" onclick="openLightbox(14)">
+        <img src="images/17-garten.jpg" alt="Garten mit Lavendel" loading="lazy">
         <span class="gallery__label">Garten</span>
+      </div>
+      <!-- Zufahrt & Fassade -->
+      <div class="gallery__item reveal" onclick="openLightbox(15)">
+        <img src="images/14-zufahrt.jpg" alt="Zufahrt mit Zypressen" loading="lazy">
+        <span class="gallery__label">Zufahrt</span>
+      </div>
+      <div class="gallery__item reveal reveal-delay-1" onclick="openLightbox(16)">
+        <img src="images/01-facade.jpg" alt="Fassade mit Mandelbäumen und Bergen" loading="lazy">
+        <span class="gallery__label">Fassade</span>
       </div>
     </div>
 
@@ -969,11 +1007,12 @@
 
     // Lightbox
     const galleryImages = [
-      'images/05-interior3.jpg', 'images/03-interior1.jpg', 'images/06-interior4.jpg',
-      'images/09-view1.jpg', 'images/08-interior6.jpg', 'images/13-detail1.jpg',
-      'images/10-view2.jpg', 'images/11-view3.jpg', 'images/02-exterior.jpg',
-      'images/01-facade.jpg', 'images/12-view4.jpg', 'images/14-detail2.jpg',
-      'images/15-detail3.jpg', 'images/16-detail4.jpg', 'images/04-interior2.jpg', 'images/07-interior5.jpg'
+      'images/04-wohnbereich.jpg', 'images/03-terrasse.jpg', 'images/05-kueche.jpg',
+      'images/06-master-bedroom.jpg', 'images/07-master-view.jpg', 'images/08-master-flur.jpg',
+      'images/09-bad-haupt.jpg', 'images/10-bad-waschtisch.jpg', 'images/11-bad-dusche.jpg',
+      'images/12-schlafzimmer2.jpg', 'images/13-studio.jpg', 'images/15-gaeste-wc.jpg',
+      'images/16-schrank.jpg', 'images/02-exterior.jpg', 'images/17-garten.jpg',
+      'images/14-zufahrt.jpg', 'images/01-facade.jpg'
     ];
     let currentImg = 0;
 
