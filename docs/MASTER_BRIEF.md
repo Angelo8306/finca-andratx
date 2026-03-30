@@ -5,14 +5,18 @@ Verkaufs-Landingpage und Social-Media-Kampagnenplan fuer eine Finca in Andratx, 
 Die Finca gehoert Kai (Cay Fingerle). Angelo unterstuetzt ihn beim Verkauf.
 
 ## Objekt-Daten
-- **Typ:** Rustikale Finca mit historischem Charme
+- **Typ:** Historische Finca Son Mone, 125+ Jahre alt, 37 Jahre vom Architekten restauriert
 - **Lage:** Andratx, Mallorca (Suedwesten)
-- **Preis:** 2.950.000 EUR
-- **Grundstueck:** 55.000 m2 (5,5 Hektar)
-- **Wohnflaeche:** ca. 450 m2
-- **Schlafzimmer:** 5
-- **Baeder:** 4
-- **Besonderheiten:** 360-Grad-Panoramablick, Olivenhain, Pool, komplette Privatsphaere, historischer Wehrturm
+- **Preis:** 1.800.000 EUR
+- **Grundstueck:** 2.345 m2
+- **Gesamt bebaute Flaeche:** 193,75 m2
+  - Erdgeschoss: 115,78 m2 (Wohn-Essraum, Kueche, Schlafzimmer, WC, Duschbad)
+  - Obergeschoss: 77,97 m2 (Master mit Bad en Suite, Studio)
+- **Sommersalon:** 23,78 m2
+- **Terrasse:** 134 m2 (inkl. 36,35 m2 Vordach)
+- **Schlafzimmer:** 3
+- **Baeder:** 2
+- **Besonderheiten:** Doppelte Deckenhoehe, offener Holzkamin, originale Olivenholz-Tuer, antike Balken, Solar, Aerothermie, Fussbodenheizung, Whirlpool, Mandelbaeume
 - **Referenz:** 2471C
 
 ## Kontaktdaten (Makler)

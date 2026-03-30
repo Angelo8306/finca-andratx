@@ -91,7 +91,7 @@ Die Blockbuster-Story einem kalten Publikum zeigen und Traffic auf die Landingpa
 **Primary Text:**
 37 Jahre. Ein Lebenswerk. Ein Architekt kaufte vor 37 Jahren eine 125 Jahre alte Ruine vom Landgut Son Mone bei Andratx. Was folgte, war kein Umbau -- es war eine Rettung. Phase fuer Phase. Stein fuer Stein. Originalzustand bewahren, modernen Komfort einbauen. Kein Kompromiss.
 
-Das Ergebnis: 231 m2 Wohnflaeche mit doppelter Deckenhoehe, offenem Holzkamin, originaler Olivenholz-Tuer und antiken Balken. 134 m2 Terrasse mit Whirlpool und Panoramablick. Solar, Aerothermie, Fussbodenheizung. 2.345 m2 Grundstueck mit Mandelbaeumen.
+Das Ergebnis: 193,75 m2 bebaute Flaeche mit doppelter Deckenhoehe, offenem Holzkamin, originaler Olivenholz-Tuer und antiken Balken. 134 m2 Terrasse mit Whirlpool und Panoramablick. Solar, Aerothermie, Fussbodenheizung. 2.345 m2 Grundstueck mit Mandelbaeumen.
 
 Jetzt sucht dieses Lebenswerk neue Haende.
 
@@ -112,7 +112,7 @@ Finca Andratx -- 1.800.000 EUR. Alle Details auf der Website.
 **Primary Text:**
 37 years. A life's work. An architect bought a 125-year-old ruin from the Son Mone estate near Andratx 37 years ago. What followed was not a renovation -- it was a rescue mission. Phase by phase. Stone by stone. Preserving the original character while adding every modern comfort. No compromise.
 
-The result: 231 sqm of living space with double-height ceilings, open wood-burning fireplace, original olive wood door and antique beams. 134 sqm terrace with whirlpool and panoramic views. Solar, aerothermal energy, underfloor heating. 2,345 sqm plot with almond trees.
+The result: 193.75 sqm of built area with double-height ceilings, open wood-burning fireplace, original olive wood door and antique beams. 134 sqm terrace with whirlpool and panoramic views. Solar, aerothermal energy, underfloor heating. 2,345 sqm plot with almond trees.
 
 Now this life's work is looking for new hands.
 
@@ -137,7 +137,7 @@ Manche Haeuser werden gebaut. Dieses wurde gerettet. 125 Jahre alte Ruine. 37 Ja
 37 Jahre. Ein Lebenswerk. Jetzt bereit fuer neue Haende.
 
 **Beschreibung:**
-231 m2 | 2.345 m2 Grundstueck | 134 m2 Terrasse | Andratx
+193,75 m2 | 2.345 m2 Grundstueck | 134 m2 Terrasse | Andratx
 
 **Call-to-Action Button:** Mehr dazu
 
@@ -154,7 +154,7 @@ Some houses are built. This one was rescued. A 125-year-old ruin. 37 years of re
 37 Years. A Life's Work. Ready for New Hands.
 
 **Beschreibung:**
-231 sqm | 2,345 sqm plot | 134 sqm terrace | Andratx
+193.75 sqm | 2,345 sqm plot | 134 sqm terrace | Andratx
 
 **Call-to-Action Button:** Learn More
 
@@ -262,7 +262,7 @@ The finca you cannot stop thinking about.
 Die Fakten auf einen Blick:
 
 -- 125 Jahre alt, 37 Jahre vom Eigentuemer-Architekten restauriert
--- 231 m2 Wohnflaeche auf 2 Etagen
+-- 193,75 m2 bebaute Flaeche auf 2 Etagen
 -- 2.345 m2 Grundstueck mit Mandelbaeumen
 -- 134 m2 Terrasse, Suedwest, Whirlpool, Panoramablick
 -- Originale Olivenholz-Tuer, antike Balken, Marmor-/Tonboeden

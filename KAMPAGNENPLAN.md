@@ -2,7 +2,7 @@
 
 ## Objekt
 **Mallorquinisches Natursteinhaus in Andratx Pueblo**
-1.800.000 € | 172 m² | 3 SZ, 2 Bäder | Ref: 2471C
+1.800.000 € | 193,75 m² | 3 SZ, 2 Bäder | Ref: 2471C
 
 ---
 
@@ -46,7 +46,7 @@
 **Post 4 — Hero-Reveal (Tag 8)**
 - Format: Reel (45-60 Sek.) — WICHTIGSTER POST
 - Inhalt: Cineastische Tour durchs Haus — Drohne nähert sich von außen, Kamera gleitet durch die Tür, Wohnbereich mit Deckenhöhe, Küche, Schlafzimmer, Außenbereich
-- Caption: "172 m² mallorquinische Geschichte. 3 Schlafzimmer, Naturstein, doppelte Deckenhöhe, Kamin. Zu Fuß ins Dorf. 1,8 Mio €. Link in Bio für alle Details."
+- Caption: "193,75 m² mallorquinische Geschichte. 3 Schlafzimmer, Naturstein, doppelte Deckenhöhe, Kamin. Zu Fuß ins Dorf. 1,8 Mio €. Link in Bio für alle Details."
 - Budget: 200-400 € Paid Promotion (Zielgruppe: DACH + UK, 35-65, Interests: Luxury Real Estate, Mallorca, Mediterranean Living)
 
 **Post 5 — Vorher/Nachher oder Grundriss (Tag 10)**

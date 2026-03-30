@@ -35,7 +35,7 @@
 | 23-26 | 01-facade.jpg (Weitwinkel) | "1.800.000 €" | Zoom-out |
 | 26-30 | Dunkel mit Gold-Text | "Link in Bio" + URL | Fade |
 
-**Caption:** "172 m² mallorquinische Geschichte. Naturstein, doppelte Deckenhöhe, Kamin, zu Fuß ins Dorf. Privatverkauf — alle Details: Link in Bio ☝️"
+**Caption:** "193,75 m² mallorquinische Geschichte. Naturstein, doppelte Deckenhöhe, Kamin, zu Fuß ins Dorf. Privatverkauf — alle Details: Link in Bio ☝️"
 
 ---
 

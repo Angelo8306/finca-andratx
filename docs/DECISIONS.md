@@ -29,6 +29,11 @@
 **Entscheidung:** KI-generierte Voiceovers fuer Reels
 **Grund:** Schnell produzierbar, professionelle Qualitaet, mehrsprachig moeglich
 
+## Flaechenangaben: Korrektur 30.03.2026
+**Entscheidung:** Alle Flaechenangaben nach Cay-Feedback korrigiert
+**Grund:** Obergeschoss war falsch (115,78 statt 77,97 m2), dadurch Gesamtflaeche falsch (231 statt 193,75 m2). Sommersalon (23,78 m2) fehlte. Vordach war leicht ungenau (36 statt 36,35 m2).
+**Korrekte Werte:** EG 115,78 + OG 77,97 = 193,75 m2 bebaute Flaeche. Sommersalon 23,78 m2. Terrasse 134 m2 (inkl. 36,35 m2 Vordach). Grundstueck 2.345 m2.
+
 ## PDF-Expose: Python + ReportLab
 **Entscheidung:** Expose programmatisch mit Python erstellen
 **Grund:** Volle Kontrolle ueber Layout, reproduzierbar, keine externe Software noetig

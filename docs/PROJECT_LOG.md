@@ -32,3 +32,15 @@
 - docs/ Pflichtdateien erstellt (MASTER_BRIEF, CHECKLIST, PROJECT_STATUS, PROJECT_LOG, DECISIONS)
 - Instagram-Posts-Texte zusammengefasst
 - Alles committed und gepusht
+
+## 30.03.2026
+
+### Session — Flaechenkorrektur nach Cay-Feedback
+- Korrigierte Flaechenangaben von Cay erhalten und in allen Dateien aktualisiert:
+  - Obergeschoss: 115,78 → 77,97 m2
+  - Gesamt bebaute Flaeche: 231 → 193,75 m2 (EG 115,78 + OG 77,97)
+  - Vordach: 36 → 36,35 m2
+  - Sommersalon: 23,78 m2 (neu hinzugefuegt)
+  - Grundstueck (2.345 m2), EG (115,78 m2), Terrasse (134 m2) blieben korrekt
+- Betroffene Dateien: index.html, META_ADS_ANLEITUNG.md, INSTAGRAM_POSTS_FERTIG.md, REEL-SKRIPTE.md, KAMPAGNENPLAN.md, karussell-post.html, MASTER_BRIEF.md
+- Alte 172 m2 Angaben (aus frueherer Version) ebenfalls auf 193,75 m2 korrigiert

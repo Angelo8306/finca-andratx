@@ -165,34 +165,34 @@ Every evening, this terrace transforms into a private theatre. The sun drops beh
 **Bild/Karussell:** Grundriss-Grafik + Fotos der einzelnen Raeume. Slide 1: Grundriss EG, Slide 2: Grundriss OG, Slides 3-5: Raumfotos.
 
 **Caption DE:**
-231 Quadratmeter auf zwei Etagen. Durchdacht von einem Architekten -- fuer sich selbst.
+193,75 Quadratmeter auf zwei Etagen. Durchdacht von einem Architekten -- fuer sich selbst.
 
 Erdgeschoss (115,78 m2):
 Offener Wohn- und Essbereich mit doppelter Deckenhoehe und Holzkamin. Kueche. Schlafzimmer. WC und Duschbad.
 
-Obergeschoss (115,78 m2):
+Obergeschoss (77,97 m2):
 Master-Schlafzimmer mit Bad en Suite. Studio mit eigenem Treppenaufgang -- perfekt als Buero, Atelier oder Gaestezimmer.
 
 Dazu: 2.345 m2 Grundstueck mit Mandelbaeumen, Platz fuer Gemuese- und Obstanbau, und ja -- Haustiere sind willkommen.
 
 5 Minuten zu Fuss ins Dorf. 30 Minuten zum Flughafen.
 
-#Grundriss #FloorPlan #FincaAndratx #231qm #ZweiEtagen #MasterSuite #Studio #Mandelbaeume #AlmondTrees #DorfLeben #Mallorca #ArchitectDesigned #RaumDesign #PropertyDetails #FincaLife
+#Grundriss #FloorPlan #FincaAndratx #193qm #ZweiEtagen #MasterSuite #Studio #Mandelbaeume #AlmondTrees #DorfLeben #Mallorca #ArchitectDesigned #RaumDesign #PropertyDetails #FincaLife
 
 **Caption EN:**
-231 square metres across two floors. Designed by an architect -- for himself.
+193.75 square metres across two floors. Designed by an architect -- for himself.
 
 Ground floor (115.78 sqm):
 Open living and dining area with double-height ceiling and wood-burning fireplace. Kitchen. Bedroom. WC and shower room.
 
-Upper floor (115.78 sqm):
+Upper floor (77.97 sqm):
 Master bedroom with en-suite bathroom. Studio with private staircase -- perfect as an office, atelier, or guest room.
 
 Plus: 2,345 sqm plot with almond trees, space for growing vegetables and fruit, and yes -- pets are welcome.
 
 5 minutes walk to the village. 30 minutes to the airport.
 
-#FloorPlan #FincaAndratx #231sqm #TwoFloors #MasterSuite #Studio #AlmondTrees #VillageLife #Mallorca #ArchitectDesigned #SpaceDesign #PropertyDetails #FincaLife #MallorcaProperty #CountryLiving
+#FloorPlan #FincaAndratx #193sqm #TwoFloors #MasterSuite #Studio #AlmondTrees #VillageLife #Mallorca #ArchitectDesigned #SpaceDesign #PropertyDetails #FincaLife #MallorcaProperty #CountryLiving
 
 ---
 
@@ -381,7 +381,7 @@ Ich habe dieses Haus nicht gebaut, um es zu verkaufen. Ich habe es gebaut, um da
 
 Aber das Leben schreibt neue Kapitel. Und dieses Haus verdient jemanden, der seine Geschichte weiterschreibt.
 
-231 m2 Wohnflaeche. 2.345 m2 Grundstueck. 134 m2 Terrasse. Mandelbaeume, Whirlpool, Panoramablick. 5 Min. ins Dorf, 30 Min. zum Flughafen.
+193,75 m2 bebaute Flaeche. 2.345 m2 Grundstueck. 134 m2 Terrasse. Mandelbaeume, Whirlpool, Panoramablick. 5 Min. ins Dorf, 30 Min. zum Flughafen.
 
 1.800.000 EUR
 
@@ -400,7 +400,7 @@ I did not build this house to sell it. I built it to live in. Every stone was ch
 
 But life writes new chapters. And this house deserves someone who will continue its story.
 
-231 sqm living space. 2,345 sqm plot. 134 sqm terrace. Almond trees, whirlpool, panoramic views. 5 min to the village, 30 min to the airport.
+193.75 sqm built area. 2,345 sqm plot. 134 sqm terrace. Almond trees, whirlpool, panoramic views. 5 min to the village, 30 min to the airport.
 
 EUR 1,800,000
 
@@ -437,7 +437,7 @@ Ich bin Kai, Architekt auf Mallorca. Vor 37 Jahren habe ich eine 125 Jahre alte 
 
 Jetzt bin ich an einem Punkt, wo neue Kapitel beginnen. Und ich moechte, dass dieses Haus in Haende kommt, die seine Geschichte verstehen.
 
-231 m2 Wohnflaeche, 2.345 m2 Grundstueck, 134 m2 Terrasse mit Whirlpool und Panoramablick. 5 Min. zu Fuss ins Dorf, 30 Min. zum Flughafen.
+193,75 m2 bebaute Flaeche, 2.345 m2 Grundstueck, 134 m2 Terrasse mit Whirlpool und Panoramablick. 5 Min. zu Fuss ins Dorf, 30 Min. zum Flughafen.
 
 1.800.000 EUR
 
@@ -459,7 +459,7 @@ Kein Kompromiss. Kein Budget-Limit. Kein Zeitdruck. Nur die Frage: Wie wird es p
 Ich habe eine 125 Jahre alte Ruine bei Andratx vom Landgut Son Mone restauriert. Nicht renoviert -- restauriert. Die originale Olivenholz-Tuer steht noch. Die antiken Deckenbalken tragen noch. Aber darunter liegt Fussbodenheizung, an den Fenstern Doppelverglasung, und auf dem Dach Solar und Aerothermie.
 
 EG: 115,78 m2 mit offenem Wohn-Essbereich (doppelte Deckenhoehe, Holzkamin), Kueche, Schlafzimmer, Bad.
-OG: 115,78 m2 mit Master Suite (Bad en Suite) und separatem Studio.
+OG: 77,97 m2 mit Master Suite (Bad en Suite) und separatem Studio.
 Grundstueck: 2.345 m2 mit Mandelbaeumen.
 Terrasse: 134 m2, Suedwest, Whirlpool, Panoramablick.
 
@@ -484,7 +484,7 @@ Ein typischer Abend in meinem Haus:
 
 So lebe ich seit Jahren. Aber jetzt suche ich jemanden, der dieses Leben weiterfuehrt.
 
-Finca bei Andratx. 125 Jahre alt, 37 Jahre restauriert von einem Architekten. 231 m2, 2.345 m2 Grundstueck. 1.800.000 EUR.
+Finca bei Andratx. 125 Jahre alt, 37 Jahre restauriert von einem Architekten. 193,75 m2, 2.345 m2 Grundstueck. 1.800.000 EUR.
 
 Interesse oder Fragen? DM oder:
 arquitecto@c-df.com | +34 670 06 87 74
@@ -502,7 +502,7 @@ Falls jemand hier mit Hund nach Mallorca will und eine Finca sucht, wo Tiere WIR
 
 Das ist kein Apartment mit "Haustiere erlaubt"-Klausel. Das ist ein echtes Zuhause mit Land, Platz und Natur.
 
-Die Finca selbst: 231 m2, 37 Jahre von einem Architekten restauriert (ich bin der Architekt), originale Materialien, aber technisch komplett modern (Solar, Aerothermie, Fussbodenheizung, Klima).
+Die Finca selbst: 193,75 m2, 37 Jahre von einem Architekten restauriert (ich bin der Architekt), originale Materialien, aber technisch komplett modern (Solar, Aerothermie, Fussbodenheizung, Klima).
 
 1.800.000 EUR. Bei Andratx.
 
@@ -546,7 +546,7 @@ Was als Kauf einer verfallenen Landarbeiter-Unterkunft begann, wurde zu einer 37
 Das Ergebnis:
 -- Originale Olivenholz-Eingangstuer, antike Holzbalken, Marmor- und Tonboeden
 -- Solar, Aerothermie, Fussbodenheizung, Doppelverglasung, Klimaanlage
--- 231 m2 Wohnflaeche auf zwei Etagen, 2.345 m2 Grundstueck
+-- 193,75 m2 bebaute Flaeche auf zwei Etagen, 2.345 m2 Grundstueck
 -- 134 m2 Terrasse mit Panoramablick und Whirlpool
 -- Doppelte Deckenhoehe im Wohnbereich mit offenem Holzkamin
 
